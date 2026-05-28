@@ -1,0 +1,8 @@
+{
+  "name": "PromptGuard CI Lite baseline",
+  "version": "baseline-v1",
+  "accuracy": 1.0,
+  "total": 20,
+  "passed": 20,
+  "max_regression": 0.1
+}
