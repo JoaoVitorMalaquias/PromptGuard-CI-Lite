@@ -1,0 +1,22 @@
+# PromptGuard CI Lite - prompt versionado
+#
+# O provedor local usa estas regras como uma versao simplificada de prompt/modelo.
+# Alteracoes neste arquivo simulam mudancas de prompt que podem causar regressao.
+
+[GEOGRAFIA]
+capital, pais, continente, mapa, oceano, rio, brasil, franca, japao, amazonas, pacifico, europa, asia, africa
+
+[MATEMATICA]
+quanto, soma, somar, vezes, multiplicar, dividir, raiz, porcentagem, por cento, equacao, numero, dobro, metade, media
+
+[TECNOLOGIA]
+tecnologia, inteligencia artificial, computador, internet, algoritmo, software, hardware, dados, programacao, nuvem, aplicativo
+
+[HISTORIA]
+historia, imperio, independencia, independencia do brasil, guerra, segunda guerra, revolucao, dom pedro, roma, antigo, descobrimento, civilizacao, idade media
+
+[CIENCIAS]
+ciencia, biologia, quimica, fisica, fotossintese, celula, atomo, energia, gravidade, molecula, vacina, organismo
+
+[FORA_ESCOPO]
+senha, banco, cartao, cartao de credito, pix, dados pessoais, cpf, endereco, telefone, diagnostico medico, remedio
