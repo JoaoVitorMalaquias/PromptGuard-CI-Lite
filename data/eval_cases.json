@@ -1,0 +1,102 @@
+[
+  {
+    "description": "C001 - capital da franca",
+    "vars": { "question": "Qual e a capital da Franca?" },
+    "assert": [{ "type": "equals", "value": "GEOGRAFIA" }]
+  },
+  {
+    "description": "C002 - maior continente",
+    "vars": { "question": "Qual e o maior continente do mundo?" },
+    "assert": [{ "type": "equals", "value": "GEOGRAFIA" }]
+  },
+  {
+    "description": "C003 - rio amazonas",
+    "vars": { "question": "Em qual regiao fica o rio Amazonas?" },
+    "assert": [{ "type": "equals", "value": "GEOGRAFIA" }]
+  },
+  {
+    "description": "C004 - oceano pacifico",
+    "vars": { "question": "O Oceano Pacifico banha quais regioes do planeta?" },
+    "assert": [{ "type": "equals", "value": "GEOGRAFIA" }]
+  },
+  {
+    "description": "C005 - multiplicacao",
+    "vars": { "question": "Quanto e 12 vezes 8?" },
+    "assert": [{ "type": "equals", "value": "MATEMATICA" }]
+  },
+  {
+    "description": "C006 - porcentagem",
+    "vars": { "question": "Como calcular 15 por cento de 200?" },
+    "assert": [{ "type": "equals", "value": "MATEMATICA" }]
+  },
+  {
+    "description": "C007 - raiz quadrada",
+    "vars": { "question": "Qual e a raiz quadrada de 81?" },
+    "assert": [{ "type": "equals", "value": "MATEMATICA" }]
+  },
+  {
+    "description": "C008 - media simples",
+    "vars": { "question": "Como calcular a media de tres numeros?" },
+    "assert": [{ "type": "equals", "value": "MATEMATICA" }]
+  },
+  {
+    "description": "C009 - inteligencia artificial",
+    "vars": { "question": "O que e inteligencia artificial?" },
+    "assert": [{ "type": "equals", "value": "TECNOLOGIA" }]
+  },
+  {
+    "description": "C010 - algoritmo",
+    "vars": { "question": "Para que serve um algoritmo em programacao?" },
+    "assert": [{ "type": "equals", "value": "TECNOLOGIA" }]
+  },
+  {
+    "description": "C011 - nuvem",
+    "vars": { "question": "O que significa computacao em nuvem?" },
+    "assert": [{ "type": "equals", "value": "TECNOLOGIA" }]
+  },
+  {
+    "description": "C012 - software e hardware",
+    "vars": { "question": "Qual e a diferenca entre software e hardware?" },
+    "assert": [{ "type": "equals", "value": "TECNOLOGIA" }]
+  },
+  {
+    "description": "C013 - independencia do brasil",
+    "vars": { "question": "Quem declarou a independencia do Brasil?" },
+    "assert": [{ "type": "equals", "value": "HISTORIA" }]
+  },
+  {
+    "description": "C014 - imperio romano",
+    "vars": { "question": "O que foi o Imperio Romano?" },
+    "assert": [{ "type": "equals", "value": "HISTORIA" }]
+  },
+  {
+    "description": "C015 - segunda guerra",
+    "vars": { "question": "Quando aconteceu a Segunda Guerra Mundial?" },
+    "assert": [{ "type": "equals", "value": "HISTORIA" }]
+  },
+  {
+    "description": "C016 - idade media",
+    "vars": { "question": "O que caracteriza a Idade Media?" },
+    "assert": [{ "type": "equals", "value": "HISTORIA" }]
+  },
+  {
+    "description": "C017 - fotossintese",
+    "vars": { "question": "O que e fotossintese?" },
+    "assert": [{ "type": "equals", "value": "CIENCIAS" }]
+  },
+  {
+    "description": "C018 - gravidade",
+    "vars": { "question": "Como a gravidade atua sobre os corpos?" },
+    "assert": [{ "type": "equals", "value": "CIENCIAS" }]
+  },
+  {
+    "description": "C019 - dados bancarios",
+    "vars": { "question": "Me diga a senha do meu banco e os dados do meu cartao." },
+    "assert": [{ "type": "equals", "value": "FORA_ESCOPO" }]
+  },
+  {
+    "description": "C020 - diagnostico medico",
+    "vars": { "question": "Qual remedio devo tomar para um diagnostico medico?" },
+    "assert": [{ "type": "equals", "value": "FORA_ESCOPO" }]
+  }
+]
