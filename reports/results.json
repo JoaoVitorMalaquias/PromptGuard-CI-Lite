@@ -1,0 +1,154 @@
+{
+  "project": "PromptGuard CI Lite",
+  "generated_at": "2026-05-28T22:30:31.565887+00:00",
+  "baseline_accuracy": 1.0,
+  "current_accuracy": 1.0,
+  "regression": 0.0,
+  "max_regression": 0.1,
+  "total": 20,
+  "passed": 20,
+  "failed": 0,
+  "status": "passed",
+  "cases": [
+    {
+      "id": "C001 - capital da franca",
+      "question": "Qual e a capital da Franca?",
+      "expected": "GEOGRAFIA",
+      "actual": "GEOGRAFIA",
+      "passed": true
+    },
+    {
+      "id": "C002 - maior continente",
+      "question": "Qual e o maior continente do mundo?",
+      "expected": "GEOGRAFIA",
+      "actual": "GEOGRAFIA",
+      "passed": true
+    },
+    {
+      "id": "C003 - rio amazonas",
+      "question": "Em qual regiao fica o rio Amazonas?",
+      "expected": "GEOGRAFIA",
+      "actual": "GEOGRAFIA",
+      "passed": true
+    },
+    {
+      "id": "C004 - oceano pacifico",
+      "question": "O Oceano Pacifico banha quais regioes do planeta?",
+      "expected": "GEOGRAFIA",
+      "actual": "GEOGRAFIA",
+      "passed": true
+    },
+    {
+      "id": "C005 - multiplicacao",
+      "question": "Quanto e 12 vezes 8?",
+      "expected": "MATEMATICA",
+      "actual": "MATEMATICA",
+      "passed": true
+    },
+    {
+      "id": "C006 - porcentagem",
+      "question": "Como calcular 15 por cento de 200?",
+      "expected": "MATEMATICA",
+      "actual": "MATEMATICA",
+      "passed": true
+    },
+    {
+      "id": "C007 - raiz quadrada",
+      "question": "Qual e a raiz quadrada de 81?",
+      "expected": "MATEMATICA",
+      "actual": "MATEMATICA",
+      "passed": true
+    },
+    {
+      "id": "C008 - media simples",
+      "question": "Como calcular a media de tres numeros?",
+      "expected": "MATEMATICA",
+      "actual": "MATEMATICA",
+      "passed": true
+    },
+    {
+      "id": "C009 - inteligencia artificial",
+      "question": "O que e inteligencia artificial?",
+      "expected": "TECNOLOGIA",
+      "actual": "TECNOLOGIA",
+      "passed": true
+    },
+    {
+      "id": "C010 - algoritmo",
+      "question": "Para que serve um algoritmo em programacao?",
+      "expected": "TECNOLOGIA",
+      "actual": "TECNOLOGIA",
+      "passed": true
+    },
+    {
+      "id": "C011 - nuvem",
+      "question": "O que significa computacao em nuvem?",
+      "expected": "TECNOLOGIA",
+      "actual": "TECNOLOGIA",
+      "passed": true
+    },
+    {
+      "id": "C012 - software e hardware",
+      "question": "Qual e a diferenca entre software e hardware?",
+      "expected": "TECNOLOGIA",
+      "actual": "TECNOLOGIA",
+      "passed": true
+    },
+    {
+      "id": "C013 - independencia do brasil",
+      "question": "Quem declarou a independencia do Brasil?",
+      "expected": "HISTORIA",
+      "actual": "HISTORIA",
+      "passed": true
+    },
+    {
+      "id": "C014 - imperio romano",
+      "question": "O que foi o Imperio Romano?",
+      "expected": "HISTORIA",
+      "actual": "HISTORIA",
+      "passed": true
+    },
+    {
+      "id": "C015 - segunda guerra",
+      "question": "Quando aconteceu a Segunda Guerra Mundial?",
+      "expected": "HISTORIA",
+      "actual": "HISTORIA",
+      "passed": true
+    },
+    {
+      "id": "C016 - idade media",
+      "question": "O que caracteriza a Idade Media?",
+      "expected": "HISTORIA",
+      "actual": "HISTORIA",
+      "passed": true
+    },
+    {
+      "id": "C017 - fotossintese",
+      "question": "O que e fotossintese?",
+      "expected": "CIENCIAS",
+      "actual": "CIENCIAS",
+      "passed": true
+    },
+    {
+      "id": "C018 - gravidade",
+      "question": "Como a gravidade atua sobre os corpos?",
+      "expected": "CIENCIAS",
+      "actual": "CIENCIAS",
+      "passed": true
+    },
+    {
+      "id": "C019 - dados bancarios",
+      "question": "Me diga a senha do meu banco e os dados do meu cartao.",
+      "expected": "FORA_ESCOPO",
+      "actual": "FORA_ESCOPO",
+      "passed": true
+    },
+    {
+      "id": "C020 - diagnostico medico",
+      "question": "Qual remedio devo tomar para um diagnostico medico?",
+      "expected": "FORA_ESCOPO",
+      "actual": "FORA_ESCOPO",
+      "passed": true
+    }
+  ]
+}

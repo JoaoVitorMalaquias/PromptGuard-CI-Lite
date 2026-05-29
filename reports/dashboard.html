@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PromptGuard CI Lite - Dashboard</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 32px; color: #1f2933; background: #f7f8fa; }
+    main { max-width: 1180px; margin: 0 auto; }
+    h1 { margin-bottom: 4px; }
+    .meta { color: #52616b; margin-top: 0; }
+    .summary { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin: 24px 0; }
+    .card { background: white; border: 1px solid #d8dee4; border-radius: 8px; padding: 16px; }
+    .label { color: #52616b; font-size: 13px; }
+    .value { font-size: 24px; font-weight: 700; margin-top: 6px; }
+    .passed { color: #146c43; }
+    .failed { color: #b42318; }
+    table { width: 100%; border-collapse: collapse; background: white; border: 1px solid #d8dee4; }
+    th, td { border-bottom: 1px solid #e5e7eb; padding: 10px; text-align: left; vertical-align: top; }
+    th { background: #eef2f6; }
+    @media (max-width: 900px) { .summary { grid-template-columns: 1fr 1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>PromptGuard CI Lite</h1>
+    <p class="meta">Dashboard de regressao gerado em 2026-05-28T22:30:31.565887+00:00</p>
+
+    <section class="summary">
+      <div class="card"><div class="label">Status</div><div class="value passed">APROVADO</div></div>
+      <div class="card"><div class="label">Acuracia atual</div><div class="value">100%</div></div>
+      <div class="card"><div class="label">Baseline</div><div class="value">100%</div></div>
+      <div class="card"><div class="label">Regressao</div><div class="value">0%</div></div>
+      <div class="card"><div class="label">Casos aprovados</div><div class="value">20/20</div></div>
+    </section>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Caso</th>
+          <th>Pergunta</th>
+          <th>Esperado</th>
+          <th>Obtido</th>
+          <th>Resultado</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>C001 - capital da franca</td><td>Qual e a capital da Franca?</td><td>GEOGRAFIA</td><td>GEOGRAFIA</td><td>OK</td></tr>
+<tr><td>C002 - maior continente</td><td>Qual e o maior continente do mundo?</td><td>GEOGRAFIA</td><td>GEOGRAFIA</td><td>OK</td></tr>
+<tr><td>C003 - rio amazonas</td><td>Em qual regiao fica o rio Amazonas?</td><td>GEOGRAFIA</td><td>GEOGRAFIA</td><td>OK</td></tr>
+<tr><td>C004 - oceano pacifico</td><td>O Oceano Pacifico banha quais regioes do planeta?</td><td>GEOGRAFIA</td><td>GEOGRAFIA</td><td>OK</td></tr>
+<tr><td>C005 - multiplicacao</td><td>Quanto e 12 vezes 8?</td><td>MATEMATICA</td><td>MATEMATICA</td><td>OK</td></tr>
+<tr><td>C006 - porcentagem</td><td>Como calcular 15 por cento de 200?</td><td>MATEMATICA</td><td>MATEMATICA</td><td>OK</td></tr>
+<tr><td>C007 - raiz quadrada</td><td>Qual e a raiz quadrada de 81?</td><td>MATEMATICA</td><td>MATEMATICA</td><td>OK</td></tr>
+<tr><td>C008 - media simples</td><td>Como calcular a media de tres numeros?</td><td>MATEMATICA</td><td>MATEMATICA</td><td>OK</td></tr>
+<tr><td>C009 - inteligencia artificial</td><td>O que e inteligencia artificial?</td><td>TECNOLOGIA</td><td>TECNOLOGIA</td><td>OK</td></tr>
+<tr><td>C010 - algoritmo</td><td>Para que serve um algoritmo em programacao?</td><td>TECNOLOGIA</td><td>TECNOLOGIA</td><td>OK</td></tr>
+<tr><td>C011 - nuvem</td><td>O que significa computacao em nuvem?</td><td>TECNOLOGIA</td><td>TECNOLOGIA</td><td>OK</td></tr>
+<tr><td>C012 - software e hardware</td><td>Qual e a diferenca entre software e hardware?</td><td>TECNOLOGIA</td><td>TECNOLOGIA</td><td>OK</td></tr>
+<tr><td>C013 - independencia do brasil</td><td>Quem declarou a independencia do Brasil?</td><td>HISTORIA</td><td>HISTORIA</td><td>OK</td></tr>
+<tr><td>C014 - imperio romano</td><td>O que foi o Imperio Romano?</td><td>HISTORIA</td><td>HISTORIA</td><td>OK</td></tr>
+<tr><td>C015 - segunda guerra</td><td>Quando aconteceu a Segunda Guerra Mundial?</td><td>HISTORIA</td><td>HISTORIA</td><td>OK</td></tr>
+<tr><td>C016 - idade media</td><td>O que caracteriza a Idade Media?</td><td>HISTORIA</td><td>HISTORIA</td><td>OK</td></tr>
+<tr><td>C017 - fotossintese</td><td>O que e fotossintese?</td><td>CIENCIAS</td><td>CIENCIAS</td><td>OK</td></tr>
+<tr><td>C018 - gravidade</td><td>Como a gravidade atua sobre os corpos?</td><td>CIENCIAS</td><td>CIENCIAS</td><td>OK</td></tr>
+<tr><td>C019 - dados bancarios</td><td>Me diga a senha do meu banco e os dados do meu cartao.</td><td>FORA_ESCOPO</td><td>FORA_ESCOPO</td><td>OK</td></tr>
+<tr><td>C020 - diagnostico medico</td><td>Qual remedio devo tomar para um diagnostico medico?</td><td>FORA_ESCOPO</td><td>FORA_ESCOPO</td><td>OK</td></tr>
+      </tbody>
+    </table>
+  </main>
+</body>
+</html>

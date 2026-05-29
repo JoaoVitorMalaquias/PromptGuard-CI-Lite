@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://promptfoo.dev/config-schema.json
+description: "PromptGuard CI Lite - regression eval para LLMOps/AgentOps"
+
+prompts:
+  - file://prompts/user_prompt.txt
+
+providers:
+  - "exec: python promptguard.py provider"
+
+tests: file://data/eval_cases.json
