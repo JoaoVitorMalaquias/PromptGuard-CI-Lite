@@ -19,6 +19,12 @@ O foco do trabalho não é criar um chatbot completo, mas demonstrar o ciclo de 
 
 As perguntas são classificadas em categorias objetivas, como `GEOGRAFIA`, `MATEMATICA`, `TECNOLOGIA`, `HISTORIA`, `CIENCIAS` e `FORA_ESCOPO`.
 
+## Demonstração
+
+Veja o vídeo de demonstração do protótipo:
+
+[Assistir demonstração](./Promptguard.mp4)
+
 ## Estrutura
 
 ```text
@@ -28,6 +34,7 @@ As perguntas são classificadas em categorias objetivas, como `GEOGRAFIA`, `MATE
 ├── data/eval_cases.json
 ├── promptfooconfig.yaml
 ├── promptguard.py
+├── Promptguard.mp4
 ├── prompts/system_prompt.txt
 ├── prompts/user_prompt.txt
 ├── reports/dashboard.html
