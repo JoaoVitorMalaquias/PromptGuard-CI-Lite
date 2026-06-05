@@ -29,6 +29,16 @@ jobs:
       - name: Run local regression eval
         run: python promptguard.py evaluate
 
+      - name: Upload evaluation dashboard
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: promptguard-evaluation-report
+          path: |
+            reports/results.json
+            reports/dashboard.html
+          if-no-files-found: error
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
