@@ -1,5 +1,5 @@
 # PromptGuard CI Lite - prompt versionado
-#
+##
 # O provedor local usa estas regras como uma versao simplificada de prompt/modelo.
 # Alteracoes neste arquivo simulam mudancas de prompt que podem causar regressao.
 
