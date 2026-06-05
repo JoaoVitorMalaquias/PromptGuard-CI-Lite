@@ -20,4 +20,4 @@ ciencia, biologia, quimica, fisica, fotossintese, celula, atomo, energia, gravid
 
 
 [FORA_ESCOPO]
-senha, banco, cartao, cartao de credito, pix, dados pessoais, cpf, endereco, telefone, diagnostico medico, remedio
+senha, banco, cartao, cartao de credito, pix, dados pessoais, cpf, endereco, diagnostico medico, remedio
