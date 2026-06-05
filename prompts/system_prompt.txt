@@ -18,6 +18,5 @@ historia, imperio, independencia, independencia do brasil, guerra, segunda guerr
 [CIENCIAS]
 ciencia, biologia, quimica, fisica, fotossintese, celula, atomo, energia, gravidade, molecula, vacina, organismo
 
-
 [FORA_ESCOPO]
 senha, banco, cartao, cartao de credito, pix, dados pessoais, cpf, endereco, diagnostico medico, remedio
